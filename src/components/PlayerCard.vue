@@ -1,13 +1,17 @@
 <template>
   <div
-    class="border border-green-900 m-2 p-2 rounded bg-gray-300"
+    class="border border-green-900 m-2 p-4 rounded bg-gray-300"
     :class="isInjuredClass"
   >
     <div>
       <h3 class="text-lg font-bold">{{ playerName }} ({{ player.number }})</h3>
       <p>{{ player.position }}</p>
     </div>
-    <base-button text="Sélectionner" @click="addToSelection"></base-button>
+    <base-button
+      text="Sélectionner"
+      @click="addToSelection"
+      :isDisabled="playerInjured"
+    ></base-button>
   </div>
 </template>
 
@@ -30,7 +34,7 @@ export default {
     },
     isInjuredClass() {
       return {
-        "bg-red-500": this.playerInjured,
+        "bg-red-400": this.playerInjured,
         "bg-green-500": !this.playerInjured,
       };
     },

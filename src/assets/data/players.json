@@ -7,7 +7,8 @@
       "country": "ALL",
       "birthDate": "27/03/86",
       "position": "Gardien",
-      "health": "available"
+      "health": "available",
+      "photo": "nauer.jpeg"
     },
     {
       "number": "25",
@@ -15,15 +16,17 @@
       "country": "BRE",
       "birthDate": "13/09/89",
       "position": "Millieu Offensif",
-      "health": "available"
+      "health": "available",
+      "photo": "muller.jpg"
     },
     {
-      "number": "11",
+      "number": "9",
       "name": "R. Lewandowski",
       "country": "POL",
       "birthDate": "21/08/88",
       "position": "Attaquant",
-      "health": "out"
+      "health": "available",
+      "photo": "lewandowski.jpg"
     },
     {
       "number": "10",
@@ -31,7 +34,8 @@
       "country": "P-B",
       "birthDate": "23/01/1984",
       "position": "Attaquant",
-      "health": "available"
+      "health": "out",
+      "photo": "robben.jpg"
     },
     {
       "number": "7",
@@ -39,7 +43,8 @@
       "country": "FRA",
       "birthDate": "07/04/1983",
       "position": "Millieu Offensif",
-      "health": "available"
+      "health": "out",
+      "photo": "ribery.jpg"
     }
   ]
 }

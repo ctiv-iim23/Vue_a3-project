@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-red-500 p-2">
+  <div class="bg-red-700 p-2 text-white font-bold">
     <a
       v-for="(link, index) in navigation"
       :key="index"
