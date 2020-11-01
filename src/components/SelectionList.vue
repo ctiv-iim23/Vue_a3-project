@@ -3,7 +3,10 @@
     <h1 class="text-lg font-bold">Joueurs Sélectionnés</h1>
 
     <div v-if="selection.length == 0">
-      <p>Aucun joueur sélectionné</p>
+      <p>
+        Vous n'avez pas selectionné de joueurs. :( <br />
+        Allez sur "Tous les joueurs" puis sélectionnez-les ! ;)
+      </p>
     </div>
     <div v-else>
       <span>Total : {{ total }}</span>
@@ -13,9 +16,14 @@
         class="border border-black my-4 p-2 "
       >
         <h3 class="text-lg font-bold">
-          {{ player.name }} ({{ player.number }})
+          ({{ player.number }}) {{ player.name }}
+          <span>| {{ player.country }}</span>
         </h3>
-        <span class="italic">Né le {{ player.birthDate }}</span>
+        <span class="italic">Né le {{ player.birthDate }}</span
+        ><br />
+        <h2 class="font-bold">
+          <span>Poste : {{ player.position }}</span>
+        </h2>
         <img :src="playerPhoto(player.photo)" alt="" />
       </div>
     </div>

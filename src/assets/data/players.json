@@ -11,13 +11,58 @@
       "photo": "nauer.jpeg"
     },
     {
-      "number": "25",
-      "name": "T. Muller",
-      "country": "BRE",
-      "birthDate": "13/09/89",
-      "position": "Millieu Offensif",
+      "number": "5",
+      "name": "B. Pavard",
+      "country": "FRA",
+      "birthDate": "28/03/96",
+      "position": "Défenseur",
       "health": "available",
-      "photo": "muller.jpg"
+      "photo": "pavard.jpeg"
+    },
+    {
+      "number": "17",
+      "name": "J. Boateng",
+      "country": "ALL",
+      "birthDate": "03/09/1988",
+      "position": "Défenseur",
+      "health": "available",
+      "photo": "boateng.jpg"
+    },
+    {
+      "number": "8",
+      "name": "J. Martinez",
+      "country": "ESP",
+      "birthDate": "02/09/1988",
+      "position": "Millieu",
+      "health": "available",
+      "photo": "martinez.jpg"
+    },
+    {
+      "number": "20",
+      "name": "B. Sarr",
+      "country": "FRA",
+      "birthDate": "31/01/1992",
+      "position": "Défenseur",
+      "health": "available",
+      "photo": "sarr.jpg"
+    },
+    {
+      "number": "18",
+      "name": "L. Goretzka",
+      "country": "ALL",
+      "birthDate": "06/02/1995",
+      "position": "Millieu",
+      "health": "available",
+      "photo": "goretzka.jpg"
+    },
+    {
+      "number": "24",
+      "name": "C. Tolisso",
+      "country": "FRA",
+      "birthDate": "03/08/1994",
+      "position": "Millieu",
+      "health": "available",
+      "photo": "tolisso.jpg"
     },
     {
       "number": "9",
@@ -27,6 +72,24 @@
       "position": "Attaquant",
       "health": "available",
       "photo": "lewandowski.jpg"
+    },
+    {
+      "number": "25",
+      "name": "T. Muller",
+      "country": "ALL",
+      "birthDate": "13/09/89",
+      "position": "Attaquant",
+      "health": "available",
+      "photo": "muller.jpg"
+    },
+    {
+      "number": "29",
+      "name": "K. Coman",
+      "country": "FRA",
+      "birthDate": "13/06/1996",
+      "position": "Attaquant",
+      "health": "available",
+      "photo": "coman.jpg"
     },
     {
       "number": "10",
