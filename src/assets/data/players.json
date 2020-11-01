@@ -1,0 +1,45 @@
+{
+  "name": "Bayern",
+  "players": [
+    {
+      "number": "1",
+      "name": "M. Neuer",
+      "country": "ALL",
+      "birthDate": "27/03/86",
+      "position": "Gardien",
+      "health": "available"
+    },
+    {
+      "number": "25",
+      "name": "T. Muller",
+      "country": "BRE",
+      "birthDate": "13/09/89",
+      "position": "Millieu Offensif",
+      "health": "available"
+    },
+    {
+      "number": "11",
+      "name": "R. Lewandowski",
+      "country": "POL",
+      "birthDate": "21/08/88",
+      "position": "Attaquant",
+      "health": "out"
+    },
+    {
+      "number": "10",
+      "name": "A. Robben",
+      "country": "P-B",
+      "birthDate": "23/01/1984",
+      "position": "Attaquant",
+      "health": "available"
+    },
+    {
+      "number": "7",
+      "name": "F. Ribery",
+      "country": "FRA",
+      "birthDate": "07/04/1983",
+      "position": "Millieu Offensif",
+      "health": "available"
+    }
+  ]
+}
